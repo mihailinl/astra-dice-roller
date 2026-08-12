@@ -52,7 +52,6 @@ to it*, not a sandbox.
 ## Build it yourself
 
 ```bash
-cd examples/dice-roller
 cargo build --release
 astra-plugin build            # produces dice-roller-<version>-<target>.astraplugin
 ```
@@ -68,6 +67,10 @@ astra-plugin dev .
 - `src/main.rs` — the whole plugin, about 250 lines. If you are writing your
   first Astra plugin, read this one: it is the smallest complete example that
   uses all three of tools, actions and triggers.
-- `icon.svg` — the store icon, hand-drawn SVG.
+- `icon.svg` — the store icon. Any of `icon.png`, `icon.webp`, `icon.svg`,
+  `icon.jpg` or `icon.ico` next to `plugin.toml` is packed into the bundle and
+  becomes the picture on this plugin's card.
+- `README.md` — this file. It is what Astra shows on the plugin's page, so it is
+  what somebody reads while deciding whether to install.
 
 MIT licensed.
