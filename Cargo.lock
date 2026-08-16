@@ -84,9 +84,9 @@ dependencies = [
 
 [[package]]
 name = "astra-plugin-macros"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "025aee681a53394fde05e5d84d66a97fd25faa161838bae6612ae7e3bdeff9e2"
+checksum = "657d8ba8b8515702dc8567c8e602cee1fb8be9de245229300108fc0d9aaf1892"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -95,9 +95,9 @@ dependencies = [
 
 [[package]]
 name = "astra-plugin-sdk"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6ea392baca758c08348f1e04271f14d4b7161181af5c2a551596493c6262a6a2"
+checksum = "17033f6c36014b9707446f332ed80b67bc68b7698dd75ee479cbb853fa397f22"
 dependencies = [
  "anyhow",
  "arc-swap",
@@ -290,7 +290,7 @@ dependencies = [
 
 [[package]]
 name = "dice_roller"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "astra-plugin-sdk",
 ]

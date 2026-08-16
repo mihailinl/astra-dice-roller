@@ -1,6 +1,6 @@
 [package]
 name = "dice_roller"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2024"
 
 [dependencies]
@@ -13,4 +13,4 @@ edition = "2024"
 # anything older the daemon answers `unauthenticated` to every host call this
 # plugin makes — it would start, serve its hooks, and silently fail to fire a
 # single trigger.
-astra-plugin-sdk = "0.6"
+astra-plugin-sdk = "0.7"
